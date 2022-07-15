@@ -1,1 +1,1 @@
-# JenkinEC2
+# JenkinEC2 installation through Terraform code
