@@ -10,7 +10,7 @@ secret_key = "9WRZ0wTveWZYSP0w1w+4LjXGvuu458Byzr6Xynf8"
 }
 
 resource "aws_security_group" "sg" {
-name = "allow_tls123"
+name = "allow_tls1234"
 description = "Allow TLS inbound traffic"
 
 
@@ -50,7 +50,7 @@ instance_type = "t2.micro"
 key_name = "Devops"
 
  tags = {
-    Name = "terraform-jenkins-master"
+    Name = "jenkins-master"
   }
   user_data = file("userdata.sh")
 
