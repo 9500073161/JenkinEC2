@@ -10,7 +10,7 @@ secret_key = "9WRZ0wTveWZYSP0w1w+4LjXGvuu458Byzr6Xynf8"
 }
 
 resource "aws_security_group" "sg" {
-name = "allow_tls1234"
+name = "allow_tls12345"
 description = "Allow TLS inbound traffic"
 
 
@@ -39,7 +39,7 @@ cidr_blocks = ["0.0.0.0/0"]
 }
 
 tags = {
-Name = "allow_tls123"
+Name = "allow_tls1234"
 }
 }
 
@@ -50,7 +50,7 @@ instance_type = "t2.micro"
 key_name = "Devops"
 
  tags = {
-    Name = "jenkins-master"
+    Name = "jenkins-master01"
   }
   user_data = file("userdata.sh")
 
