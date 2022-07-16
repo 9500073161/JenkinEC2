@@ -10,7 +10,7 @@ secret_key = "9WRZ0wTveWZYSP0w1w+4LjXGvuu458Byzr6Xynf8"
 }
 
 resource "aws_security_group" "sg" {
-name = "allow_tls12345"
+name = "allow_tls1234"
 description = "Allow TLS inbound traffic"
 
 
